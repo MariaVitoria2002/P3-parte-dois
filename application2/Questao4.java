@@ -5,7 +5,14 @@ import java.util.Scanner;
 public class Questao4 {
 
     public static int numerosPrimos(int limiteInferior, int limiteSuperior){
-        for(imiteInferior <= limiteSuperior)
+        for(int i = limiteInferior; i < limiteSuperior; i++){
+            for (int j = 2; j < limiteSuperior && j > limiteInferior; j++) {
+                if (limiteSuperior % j == 0)
+                    return j;          
+            }
+            
+        }
+        
     }
 
     public static void main(String[]args){
@@ -18,4 +25,4 @@ public class Questao4 {
 
     }
 }
-//incompleto
+//INCOMPLETA
