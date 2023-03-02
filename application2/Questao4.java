@@ -2,7 +2,7 @@ package application2;
 
 import java.util.Scanner;
 
-public class Questao4 {
+public class Questao4 { // INCOMPLETA
 
     public static int numerosPrimos(int limiteInferior, int limiteSuperior){
         for(int i = limiteInferior; i < limiteSuperior; i++){
