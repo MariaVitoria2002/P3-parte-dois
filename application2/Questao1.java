@@ -37,4 +37,3 @@ public class Questao1 {
         
     }
 }
-//ok

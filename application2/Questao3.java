@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Questao3 {
     
-    public static boolean numeroPrimo(int numero){
+    public static boolean numeroPrimo(int numero){ // verifica se o número é primo ou não
 
         for (int i = 2; i < numero; i++) {
             if (numero % i == 0){
@@ -14,8 +14,8 @@ public class Questao3 {
         return true;
     }
 
-    public static void main (String[]args){
-        Scanner sc = new Scanner(System.in);
+    public static void main (String[]args){ // lê o número e imprimi o resultado
+        Scanner sc = new Scanner(System.in); 
 
         System.out.println("Digite um número: ");
         int numero = sc.nextInt();
@@ -27,4 +27,3 @@ public class Questao3 {
         }
     }
 }
-//ok
